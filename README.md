@@ -1,5 +1,5 @@
-# 💫 About Me:
-### 👋 Hey there<br><br>Welcome to my GitHub!<br><br>🚀 I'm an engineer and builder, passionate about solving real-world problems using technology.  <br>💡 I work across Machine Learning, Embedded Systems, and Full-Stack Development.<br><br><br>🧠 Always open to collaboration.  <br>📬 Reach me for projects, research, or just to brainstorm: [eisashaiju@gmail.com]<br><br>
+# About Me:
+###  Hey there<br><br>Welcome to my GitHub!<br><br>🚀 I'm an engineer and builder, passionate about solving real-world problems using technology.  <br>💡 I work across Machine Learning, Embedded Systems, and Full-Stack Development.<br><br><br>🧠 Always open to collaboration.  <br>📬 Reach me for projects, research, or just to brainstorm: [eisashaiju@gmail.com]<br><br>
 
 
 ## 🌐 Socials:

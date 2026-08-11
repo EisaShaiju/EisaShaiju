@@ -2,17 +2,16 @@
 """
 generate_portrait.py
 
-Photo -> ASCII portrait -> self-typing animated SVG, using only the repo's
+Photo -> ASCII boundary portrait -> self-typing animated SVG, using only the repo's
 own assets (no third-party image services at render time).
 
 Pipeline:
-  1. rembg cutout        -> forces background to white (blank end of ramp)
-  2. bilateral filter     -> smooths skin, keeps edges
-  3. CLAHE (clip ~3.0)    -> local contrast so a flatly-lit face isn't one tone
-  4. darkening curve      -> (v/255)^1.7, keeps glasses/brows/lips from washing out
-  5. map to ramp          -> 13-level brightness ramp, leading space = background
-  6. SVG                  -> each row wipes in via clipPath + SMIL animate,
-                             staggered top->bottom, fill="freeze" (types once)
+  1. rembg cutout         -> isolates subject on a pure white background
+  2. resize to grid       -> downscales to ASCII resolution first
+  3. Canny edge detection -> finds boundaries (hair, features, shirt)
+  4. Gaussian blur        -> softens the edges to create an anti-aliasing gradient
+  5. map to ramp          -> spaces for empty areas, text characters for lines
+  6. SVG                  -> staggered clipPath animation for the typing effect
 
 Usage:
     python3 generate_portrait.py <input_photo> <output_svg> [--cols 90]
@@ -27,7 +26,9 @@ import numpy as np
 import cv2
 from PIL import Image
 
-RAMP = " .`:-=+*cs#%@"          # 13 levels, index 0 = blank/background
+# Boundary Ramp: Starts with spaces so non-edges remain completely transparent/blank.
+# Characters progress from thin/light to dense to anti-alias the edge lines.
+RAMP = "   .:-=+*#@"
 CHAR_W = 7.74                    # px advance at font-size 12.9 (0.600em, JetBrains Mono)
 FONT_SIZE = 12.9
 LINE_HEIGHT = CHAR_W / 0.48       # derived so rows = cols * (h/w) * 0.48 holds visually
@@ -40,37 +41,40 @@ def remove_background(img: Image.Image) -> Image.Image:
     img.save(buf, format="PNG")
     out = remove(buf.getvalue())
     cut = Image.open(io.BytesIO(out)).convert("RGBA")
-    # composite onto solid white -- background must be the blank end of the ramp
+    
+    # Composite onto solid white -- makes the outer boundary easy to detect for Canny
     bg = Image.new("RGBA", cut.size, (255, 255, 255, 255))
     bg.paste(cut, (0, 0), cut)
     return bg.convert("RGB")
 
 
-def enhance(img: Image.Image) -> np.ndarray:
-    arr = cv2.cvtColor(np.array(img), cv2.COLOR_RGB2GRAY)
-    arr = cv2.bilateralFilter(arr, d=9, sigmaColor=75, sigmaSpace=75)
-    clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8, 8))
-    arr = clahe.apply(arr)
-    v = arr.astype(np.float64) / 255.0
-    v = np.power(v, 1.7)          # darkening curve -- the fix
-    return (v * 255.0).astype(np.uint8)
-
-
-def to_ascii_grid(gray: np.ndarray, cols: int) -> list[str]:
+def to_ascii_grid(img: Image.Image, cols: int) -> list[str]:
+    # Convert directly to grayscale
+    gray = cv2.cvtColor(np.array(img), cv2.COLOR_RGB2GRAY)
     h, w = gray.shape
     rows = max(1, round(cols * (h / w) * 0.48))
+    
+    # 1. Resize to target ASCII grid FIRST
+    # Doing edge detection at this resolution ensures the lines scale perfectly to 1 character wide
     small = cv2.resize(gray, (cols, rows), interpolation=cv2.INTER_AREA)
+    
+    # 2. Extract Boundaries
+    edges = cv2.Canny(small, 40, 100)
+    
+    # 3. Soften the edges to create a gradient for anti-aliasing
+    edges = cv2.GaussianBlur(edges, (3, 3), 0)
+    
     ramp_len = len(RAMP)
     lines = []
     for r in range(rows):
         line = []
         for c in range(cols):
-            v = small[r, c]
-            # brighter pixel (closer to white background) -> further toward blank end
-            idx = int((255 - v) / 255 * (ramp_len - 1))
-            idx = max(0, min(ramp_len - 1, idx))
+            v = edges[r, c]
+            # v is 0 (empty background) to 255 (hard edge)
+            idx = int(v / 255 * (ramp_len - 1))
             line.append(RAMP[idx])
         lines.append("".join(line))
+        
     return lines
 
 
@@ -117,6 +121,8 @@ def build_svg(lines: list[str], font_uri: str, fill: str = "#c9d1d9") -> str:
     row_elems = []
     for i, line in enumerate(lines):
         y = (i + 0.8) * LINE_HEIGHT
+        
+        # RESTORED: This calculates the staggered delay for the line-by-line typing animation
         begin = round(i * 0.09, 2)
         clip_id = f"clip{i}"
         row_elems.append(f'''
@@ -155,8 +161,9 @@ def main():
 
     img = Image.open(args.input).convert("RGB")
     cut = remove_background(img)
-    gray = enhance(cut)
-    lines = to_ascii_grid(gray, args.cols)
+    
+    # Skip enhancement block and pass directly to boundary edge mapping
+    lines = to_ascii_grid(cut, args.cols)
 
     used_chars = "".join(sorted(set("".join(lines))))
     font_uri = embed_font(Path(args.font), used_chars)
@@ -164,7 +171,7 @@ def main():
     svg = build_svg(lines, font_uri)
     Path(args.output).write_text(svg)
 
-    # also dump the plain-text grid so quality can be checked without a browser
+    # Dump the plain-text grid so quality can be checked without a browser
     Path(args.output).with_suffix(".txt").write_text("\n".join(lines))
     print(f"wrote {args.output}  ({args.cols} cols x {len(lines)} rows)")
 

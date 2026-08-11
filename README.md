@@ -8,7 +8,7 @@ engineering high-performance AI systems for domains where precision is critical.
 
 <img src="hd-about.svg" width="460" alt="about" /><br/>
 
-I specialize in bridging heavy industry with modern artificial intelligence. My production experience spans orchestrating multi-agent architectures with LangGraph, optimizing multimodal search engines with TensorRT, and developing neuromorphic spiking neural networks for real-time control systems. Most recently, my team won the Smart India Hackathon 2025 for engineering an AI-driven digital twin that optimizes iron ore comminution circuits. Currently, I am building NorthPixel — fixed-price AI phone agents for small businesses.
+I specialize in bridging heavy industry with modern artificial intelligence. My production experience spans orchestrating multi-agent architectures with LangGraph, optimizing multimodal search engines with TensorRT, and developing neuromorphic spiking neural networks for real-time control systems. Most recently, my team won the Smart India Hackathon 2025 for engineering an AI-driven digital twin that optimizes iron ore comminution circuits.
 
 <!-- TECH STACK BADGES -->
 <p align="left">
@@ -22,10 +22,10 @@ I specialize in bridging heavy industry with modern artificial intelligence. My 
 
 <!-- SOCIAL / CONTACT LINKS -->
 <p align="left">
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN_HANDLE_HERE" target="_blank">
+  <a href="https://www.linkedin.com/in/eisa-shaiju/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:YOUR_EMAIL_HERE" target="_blank">
+  <a href="mailto:eisashaiju@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>

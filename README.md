@@ -2,23 +2,14 @@
 <img src="portrait.svg" width="460" alt="ASCII self-portrait, typed in on load" />
 
 <blockquote>
-M.Tech Dual Degree student at IIT Kharagpur (Mining Engineering + CS minor), 
-engineering high-performance AI systems for domains where precision is critical.
+M.Tech Dual Degree at IIT Kharagpur &mdash; Mining Engineering, CS minor,
+micro-specialisation in AI. I build AI systems for industrial processes, where
+being approximately right is the same as being wrong.
 </blockquote>
 
 <img src="hd-about.svg" width="460" alt="about" /><br/>
 
-I specialize in bridging heavy industry with modern artificial intelligence. My production experience spans orchestrating multi-agent architectures with LangGraph, optimizing multimodal search engines with TensorRT, and developing neuromorphic spiking neural networks for real-time control systems. Most recently, my team won the Smart India Hackathon 2025 for engineering an AI-driven digital twin that optimizes iron ore comminution circuits.
-
-<!-- TECH STACK BADGES -->
-<p align="left">
-  <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/-Apache%20Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white" alt="Kafka" />
-  <img src="https://img.shields.io/badge/-LangGraph-000000?style=flat-square&logo=git&logoColor=white" alt="LangGraph" />
-  <img src="https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS" />
-</p>
+I work at the seam between heavy industry and modern AI. At the **University of Oulu** I replaced a classical CVXPY QP solver with a neuromorphic LIF spiking engine for real-time predictive control, holding overshoot to 20.04&nbsp;&deg;C against 15&nbsp;&deg;C thermal disturbances on a non-linear MPC digital twin. At **Lumi** I shipped an SDXL pipeline (LoRA + ControlNet, 15K garments, 92% structural fidelity) and a CLIP + FAISS/HNSW multimodal index over 500K style embeddings at 120&nbsp;ms, then cut serving VRAM 45% with TensorRT and Triton. At **IBS Software** I built a 50K events/s Kafka pipeline and a LangGraph multi-agent orchestrator that resolves regulatory anomalies at 96% accuracy. In December 2025 my team were **national winners of Smart India Hackathon** for an AI digital twin of an iron-ore comminution circuit &mdash; 31.7% less energy, ~$1.58M projected annual savings.
 
 <!-- SOCIAL / CONTACT LINKS -->
 <p align="left">
@@ -30,6 +21,23 @@ I specialize in bridging heavy industry with modern artificial intelligence. My 
   </a>
 </p>
 
+<img src="hd-skills.svg" width="460" alt="skills" /><br/>
+<img src="skills.svg" width="460" alt="skills: languages and frameworks, libraries, platforms and tools" />
+
+<img src="hd-work.svg" width="460" alt="work" /><br/>
+
+**Research Intern** &middot; University of Oulu, Finland &middot; <sub>May&ndash;Jul 2026</sub><br/>
+Real-time predictive control for non-linear industrial heating &mdash; a neuromorphic LIF spiking engine standing in for classical QP, with exact trajectory equivalence.
+
+**AI &amp; MLOps Intern** &middot; Lumi &middot; <sub>Jan&ndash;Feb 2026</sub><br/>
+Generative and multimodal search for fashion discovery &mdash; SDXL + LoRA/ControlNet, a 500K-embedding CLIP/FAISS index at 120&nbsp;ms, TensorRT and Triton serving.
+
+**AI Intern** &middot; IBS Software &middot; <sub>May&ndash;Jun 2025</sub><br/>
+Event-driven logistics data platform &mdash; Kafka at 50K&nbsp;ev/s into S3, Databricks and Redshift, with a LangGraph multi-agent orchestrator over a FastAPI backend.
+
+**National Winner** &middot; Smart India Hackathon 2025 &middot; <sub>Aug&ndash;Dec 2025</sub><br/>
+AI digital twin for iron-ore comminution &mdash; a PPO RL agent cutting energy 31.7%, LSTM/Random-Forest fault prediction at 92.3%, and a RAG co-pilot over live SCADA.
+
 <img src="hd-activity.svg" width="460" alt="activity" /><br/>
 <img src="stats.svg" width="460" alt="contribution stats" /><br/>
 <img src="streak.svg" width="460" alt="contribution streaks" /><br/>
@@ -40,5 +48,6 @@ I specialize in bridging heavy industry with modern artificial intelligence. My 
 
 ---
 
-<sub>Portrait and stats are generated inside this repo by a scheduled
-GitHub Action — no third-party widgets. See <samp>scripts/</samp>.</sub>
+<sub>The four activity cards are refreshed nightly by a scheduled GitHub Action.
+The portrait, headings and skills card are drawn from <samp>photo.jpg</samp> and
+plain Python on demand &mdash; no third-party widgets anywhere. See <samp>scripts/</samp>.</sub>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 333"
+     width="460" height="333" role="img" aria-label="skills: languages &amp; frameworks -- Python, C++, C, SQL, PyTorch, TensorFlow, FastAPI, LangChain, LangGraph, Stable Diffusion, Streamlit, Rasa; libraries -- Transformers, FAISS, MLflow, DVC, ControlNet, Llama, Whisper, scikit-learn, pandas, NumPy, OpenCV, Optuna, spaCy, Jina; platforms &amp; tools -- AWS (S3, Redshift), Databricks, Apache Kafka, Docker, GitHub Actions, TensorRT, PostgreSQL, Git, TensorBoard, WSL">
+  <style>
+    @font-face {
+      font-family: 'CardMono';
+      src: url('data:font/woff2;base64,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') format('woff2');
+    }
+    text { font-family: 'CardMono', monospace; }
+  </style>
+  <rect width="100%" height="100%" rx="6" fill="#0d1117"/>
+  <text x="16" y="27" font-size="11" fill="#8b949e">languages &amp; frameworks</text>
+  <line x1="169.2" y1="23" x2="444" y2="23" stroke="#21262d" stroke-width="1"/>
+  <rect x="16.0" y="41.0" width="55.6" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="24.0" y="55.0" font-size="11" fill="#c9d1d9">Python</text>
+  <rect x="77.6" y="41.0" width="35.8" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="85.6" y="55.0" font-size="11" fill="#c9d1d9">C++</text>
+  <rect x="119.4" y="41.0" width="22.6" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="127.4" y="55.0" font-size="11" fill="#c9d1d9">C</text>
+  <rect x="148.0" y="41.0" width="35.8" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="156.0" y="55.0" font-size="11" fill="#c9d1d9">SQL</text>
+  <rect x="189.8" y="41.0" width="62.2" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="197.8" y="55.0" font-size="11" fill="#c9d1d9">PyTorch</text>
+  <rect x="258.0" y="41.0" width="82.0" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="266.0" y="55.0" font-size="11" fill="#c9d1d9">TensorFlow</text>
+  <rect x="346.0" y="41.0" width="62.2" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="354.0" y="55.0" font-size="11" fill="#c9d1d9">FastAPI</text>
+  <rect x="16.0" y="67.0" width="75.4" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="24.0" y="81.0" font-size="11" fill="#c9d1d9">LangChain</text>
+  <rect x="97.4" y="67.0" width="75.4" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="105.4" y="81.0" font-size="11" fill="#c9d1d9">LangGraph</text>
+  <rect x="178.8" y="67.0" width="121.6" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="186.8" y="81.0" font-size="11" fill="#c9d1d9">Stable Diffusion</text>
+  <rect x="306.4" y="67.0" width="75.4" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="314.4" y="81.0" font-size="11" fill="#c9d1d9">Streamlit</text>
+  <rect x="387.8" y="67.0" width="42.4" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="395.8" y="81.0" font-size="11" fill="#c9d1d9">Rasa</text>
+  <text x="16" y="116" font-size="11" fill="#8b949e">libraries</text>
+  <line x1="83.4" y1="112" x2="444" y2="112" stroke="#21262d" stroke-width="1"/>
+  <rect x="16.0" y="130.0" width="95.2" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="24.0" y="144.0" font-size="11" fill="#c9d1d9">Transformers</text>
+  <rect x="117.2" y="130.0" width="49.0" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="125.2" y="144.0" font-size="11" fill="#c9d1d9">FAISS</text>
+  <rect x="172.2" y="130.0" width="55.6" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="180.2" y="144.0" font-size="11" fill="#c9d1d9">MLflow</text>
+  <rect x="233.8" y="130.0" width="35.8" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="241.8" y="144.0" font-size="11" fill="#c9d1d9">DVC</text>
+  <rect x="275.6" y="130.0" width="82.0" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="283.6" y="144.0" font-size="11" fill="#c9d1d9">ControlNet</text>
+  <rect x="363.6" y="130.0" width="49.0" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="371.6" y="144.0" font-size="11" fill="#c9d1d9">Llama</text>
+  <rect x="16.0" y="156.0" width="62.2" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="24.0" y="170.0" font-size="11" fill="#c9d1d9">Whisper</text>
+  <rect x="84.2" y="156.0" width="95.2" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="92.2" y="170.0" font-size="11" fill="#c9d1d9">scikit-learn</text>
+  <rect x="185.4" y="156.0" width="55.6" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="193.4" y="170.0" font-size="11" fill="#c9d1d9">pandas</text>
+  <rect x="247.0" y="156.0" width="49.0" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="255.0" y="170.0" font-size="11" fill="#c9d1d9">NumPy</text>
+  <rect x="302.0" y="156.0" width="55.6" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="310.0" y="170.0" font-size="11" fill="#c9d1d9">OpenCV</text>
+  <rect x="363.6" y="156.0" width="55.6" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="371.6" y="170.0" font-size="11" fill="#c9d1d9">Optuna</text>
+  <rect x="16.0" y="182.0" width="49.0" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="24.0" y="196.0" font-size="11" fill="#c9d1d9">spaCy</text>
+  <rect x="71.0" y="182.0" width="42.4" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="79.0" y="196.0" font-size="11" fill="#c9d1d9">Jina</text>
+  <text x="16" y="231" font-size="11" fill="#8b949e">platforms &amp; tools</text>
+  <line x1="136.2" y1="227" x2="444" y2="227" stroke="#21262d" stroke-width="1"/>
+  <rect x="16.0" y="245.0" width="134.8" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="24.0" y="259.0" font-size="11" fill="#c9d1d9">AWS (S3, Redshift)</text>
+  <rect x="156.8" y="245.0" width="82.0" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="164.8" y="259.0" font-size="11" fill="#c9d1d9">Databricks</text>
+  <rect x="244.8" y="245.0" width="95.2" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="252.8" y="259.0" font-size="11" fill="#c9d1d9">Apache Kafka</text>
+  <rect x="346.0" y="245.0" width="55.6" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="354.0" y="259.0" font-size="11" fill="#c9d1d9">Docker</text>
+  <rect x="16.0" y="271.0" width="108.4" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="24.0" y="285.0" font-size="11" fill="#c9d1d9">GitHub Actions</text>
+  <rect x="130.4" y="271.0" width="68.8" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="138.4" y="285.0" font-size="11" fill="#c9d1d9">TensorRT</text>
+  <rect x="205.2" y="271.0" width="82.0" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="213.2" y="285.0" font-size="11" fill="#c9d1d9">PostgreSQL</text>
+  <rect x="293.2" y="271.0" width="35.8" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="301.2" y="285.0" font-size="11" fill="#c9d1d9">Git</text>
+  <rect x="335.0" y="271.0" width="88.6" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="343.0" y="285.0" font-size="11" fill="#c9d1d9">TensorBoard</text>
+  <rect x="16.0" y="297.0" width="35.8" height="20" rx="3" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <text x="24.0" y="311.0" font-size="11" fill="#c9d1d9">WSL</text>
+</svg>

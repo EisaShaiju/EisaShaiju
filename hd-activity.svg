@@ -2,12 +2,12 @@
      width="460" height="28" role="img" aria-label="activity">
   <style>
     @font-face {
-      font-family: 'HeadingMono';
+      font-family: 'CardMono';
       src: url('data:font/woff2;base64,d09GMgABAAAAAAOQAA4AAAAABvgAAAM8AAJOFAAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbIBwqBmAAXBEICoNkgxABNgIkAyQLFAAEIAWEJgcgG50FAB6FcWNdYuYS09sFHQ//719f+9wqvxYQkQr/7wiORsoghFDL0azJ4Zpaa/uoNLF9UW9ici92tod3mw6N+VAZqlhJluma/2UAPs/l+N8WHBtP7IyzMZceYHsA9hJIoA2W4GlAZ5EGQOkmw59zHhl2baZJjhFoAEiSkBMKSkKgqoMdrMlTAwkwIw81gEBVLyJjmPOWdm9AQ7CGhNf5tDwuKpBOp+WAWfvLsZYmxgOJCmENP8vMiRB6ssFh7t//L5M/FxcRkHqlm+hiCgk5tDAu0MKE6YBGypKiDeo6kD2HNdjcqD3rGY+75KLzBboQokZjZIpmKOMkXt9uVEefRyrk7Q5Zh2qLho0aLDl9NeqvXcuyXaV6+hu7V71x5opUjeqzl5eeuRbB9g/qftwA9Q7v886S6vNXmb9M3ZW717pnly9nkeWq0TBlGiK9qtfYJVNNdZ9k55212Yqnnmv7xAudV82vXpK+dI891fKRZ9r/pe07Lz6N+s+yM5+o+/ifypJNpaBWPisq0b/Yfxej+2+6cmL83kSh0S2njrKNsYNLLKpZnqDTOGc0YLNM8bXhlc3H8NrlxmN4o4ywsWUreW6TadRUj+Nq7FSv1TTBzF05tuwwBpILX0+8trBy+YOF6pOjIY/3euHTT6x84sHCB5M6jLV/dqHvD3tu2CdH/w4Z/3nxiJTpY928Nf/KN7kN9YsOfQwefGvT8Xh59U3/k10XbO8sZLMX7mwvAGO9TKCknLYBTQCWAKl/riKQ5rY4gbdD1i2P/q3cOPcL3K++9ys8vLnpub9G/L8//Zc/h6IEgr8pk5YjuNoqn+e0sCtpudyCFxk6CSVh+A7w/zmBSrxvr1NFgXpzAiUrtaF8BR8zldDBnZI0cl3JGe1LyRsQ3ZSCxTH3vaJ+8bxJcIRDlI6WNgTSUPUqlLACc6IPBvGgVHUM0aAg3BAOiqDgujB1COTGQNpwFBok0oYgBJqFklJLB+Uyo0ahDjegFGm+PRT7cHFm1Rismxl9VRSNUUtFz3qsh/XdO+T+i7ddcNZTsO+OdzDbMHYc1qHeVK1QHdduccTVPWp0xuQOndFITq9xqhpxtvlxwrPaNIAAAAAA') format('woff2');
     }
-    text { font-family: 'HeadingMono', monospace; }
+    text { font-family: 'CardMono', monospace; }
   </style>
-  <rect width="100%" height="100%" fill="#0d1117"/>
+  <rect width="100%" height="100%" rx="0" fill="#0d1117"/>
   <text x="0" y="19" font-size="13" fill="#8b949e">activity</text>
-  <line x1="69.9" y1="14" x2="456" y2="14" stroke="#21262d" stroke-width="1"/>
+  <line x1="70.4" y1="14" x2="456" y2="14" stroke="#21262d" stroke-width="1"/>
 </svg>

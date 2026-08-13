@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 28"
+     width="460" height="28" role="img" aria-label="skills">
+  <style>
+    @font-face {
+      font-family: 'CardMono';
+      src: url('data:font/woff2;base64,d09GMgABAAAAAAMUAA4AAAAABjQAAALDAAJOFAAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbIBwqBmAARBEICoJEghoBNgIkAxwLEAAEIAWEJgcgGwcFKC4C40a+RKZGi3KRtYBfLUSc6YWvi+D9/T7n3I/slhSV4xkUEAn7UgXoWiWBhEFQzaqmmuh6/3ID+Z0UGP9AvQvKqwJ2UpkqHVVU8fTpWHyS/e9PUDalvl4Hbsr1xfsYa3j5fMCs+H7AhBIt3Xk2oCGMZAA629lWIzPRJ5kzSa+dJFAHhFAQHojXqBpSKGT5ykEBRMvDfwBEjGMK3ZZ4aj92QTYKOM6nbXFdgXQxSYB17ij2KI9WkKjAqIBPtXYpQnDjOH/uT8/kr8QKAtJ4+gTGRCIhh74wgb5w84CysoTjHPz/4Ti76v9vHqrADwGd3gIl0EQBO4CzIVBP4T+B7q42mlP1uKjlqtFINbVCLdW21rZtj91S1bj4JuQazWf34+Lsj7y47LEPX3oaEtwiepp68O36f16TqhtPYmMvPoKsS/gie461XXwQEnwYN38fsgshcX9uIubVKdB+2LF6fH3afFQ4G7XufrF/ZY1I0P39QHYLWYQOCcgoKQ4RgzK6rIxbbmf2tEbfGEw0Dbb06sbE3FHDcIs8n8biFtdR63sWe/NpK0MGgQI450ljBYUEiUQUFoxB6LhQlBTTUbAYsBmkmbkYgbSx/3/yeKek+V+jk3KfAB+rx58B0x/0+z/r8qS/W0RRAsEHtbQNwcnF17IFpbSNbCNCQAsUvkMI/i0KlOKWM6ahKABAjg07fCpfwT0gVBhyQSVN76ic+b6ovFlBpgo2xcbHimbEgWXcPKb4WJlZYEi5UvYRQQwYf4N+Rlg7Hy0rFz9kiJuLGzLKx83GSA9D2gRgFm4+fgiTBYZ5+NUrUcLMCrMI0Cmm5+ZUUlWvavlyVjefYGR+gIOWTzm3QqkqDWvbNaRP8BKa0xSSuIiRj58VGqPyfQTDTLQCMDfL+L4whGlcmWK1ilUqVoOnikEVHVZfM4wJ+3/lQAA=') format('woff2');
+    }
+    text { font-family: 'CardMono', monospace; }
+  </style>
+  <rect width="100%" height="100%" rx="0" fill="#0d1117"/>
+  <text x="0" y="19" font-size="13" fill="#8b949e">skills</text>
+  <line x1="54.8" y1="14" x2="456" y2="14" stroke="#21262d" stroke-width="1"/>
+</svg>

@@ -17,7 +17,6 @@ Determinism:
     - repositories are filtered to privacy: PUBLIC so the numbers are the same
       regardless of which token (yours or the workflow's) generated them
 """
-import base64
 import json
 import os
 import sys
@@ -25,14 +24,14 @@ import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+from svgkit import ACCENT, DIM, FG, RULE, svg_shell
+
 API_URL = "https://api.github.com/graphql"
 RAMP = " .`:-=+*cs#%@"
-BG = "#0d1117"
-FG = "#c9d1d9"
-DIM = "#6e7681"
-ACCENT = "#58a6ff"
 
-FONT_DIR = Path(__file__).parent.parent / "fonts"
+# Everything these four cards can draw, so the embedded subset is the same in
+# each one and the diffs stay small.
+CHARS = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz :-/,." + RAMP
 
 
 # ---------------------------------------------------------------- GraphQL --
@@ -168,39 +167,8 @@ def compute_streaks(calendar: dict):
 
 # -------------------------------------------------------------- SVG base --
 
-def font_face_css() -> str:
-    """Embed a small subset covering digits, letters used in labels, and the ramp."""
-    import subprocess
-    import tempfile
-
-    chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz :-/,." + RAMP
-    chars = "".join(sorted(set(chars)))
-    src = FONT_DIR / "JetBrainsMono-Regular.ttf"
-    with tempfile.NamedTemporaryFile(suffix=".woff2", delete=False) as tmp:
-        out_path = tmp.name
-    subprocess.run(
-        ["pyftsubset", str(src), f"--text={chars}", "--flavor=woff2",
-         "--layout-features=", "--no-hinting", f"--output-file={out_path}"],
-        check=True, capture_output=True,
-    )
-    data = base64.b64encode(Path(out_path).read_bytes()).decode()
-    Path(out_path).unlink(missing_ok=True)
-    return f"""@font-face {{
-      font-family: 'StatsMono';
-      src: url('data:font/woff2;base64,{data}') format('woff2');
-    }}"""
-
-
-def svg_shell(width: int, height: int, body: str, title: str) -> str:
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}"
-     width="{width}" height="{height}" role="img" aria-label="{title}">
-  <style>
-    {font_face_css()}
-    text {{ font-family: 'StatsMono', monospace; }}
-  </style>
-  <rect width="100%" height="100%" rx="6" fill="{BG}"/>
-  {body}
-</svg>'''
+def card(width: int, height: int, body: str, title: str) -> str:
+    return svg_shell(width, height, body, title, chars=CHARS, family="StatsMono")
 
 
 # ------------------------------------------------------------- hero card --
@@ -228,7 +196,7 @@ def build_hero_svg(calendar: dict) -> str:
   <text x="{pad}" y="34" font-size="26" fill="{FG}">{total:,}</text>
   <text x="{pad}" y="52" font-size="11" fill="{DIM}">contributions in the last year</text>
   {"".join(bars)}'''
-    return svg_shell(w, h, body, f"{total} contributions in the last year")
+    return card(w, h, body, f"{total} contributions in the last year")
 
 
 # ------------------------------------------------------------ streak card --
@@ -244,7 +212,7 @@ def build_streak_svg(streak: dict) -> str:
   <text x="240" y="52" font-size="11" fill="{DIM}">day longest streak</text>
   <text x="240" y="70" font-size="10" fill="{DIM}">{streak['longest_start'] or '--'} &#8594; {streak['longest_end'] or '--'}</text>
   <line x1="220" y1="10" x2="220" y2="80" stroke="{DIM}" stroke-width="0.5"/>'''
-    return svg_shell(w, h, body, "contribution streaks")
+    return card(w, h, body, "contribution streaks")
 
 
 # ------------------------------------------------------------- lang card --
@@ -266,12 +234,12 @@ def build_lang_svg(by_bytes: dict, by_repo: dict) -> str:
         rows.append(f'''
   <circle cx="16" cy="{y - 4}" r="4" fill="{color}"/>
   <text x="28" y="{y}" font-size="11" fill="{FG}">{name}</text>
-  <rect x="140" y="{y - 9}" width="200" height="8" fill="#21262d"/>
+  <rect x="140" y="{y - 9}" width="200" height="8" fill="{RULE}"/>
   <rect x="140" y="{y - 9}" width="{bar_w:.1f}" height="8" fill="{color}"/>
   <text x="350" y="{y}" font-size="10" fill="{DIM}">{pct:.1f}% - {repos} repo{'s' if repos != 1 else ''}</text>''')
 
     body = f'<text x="16" y="16" font-size="11" fill="{DIM}">top languages, by bytes</text>' + "".join(rows)
-    return svg_shell(w, h, body, "top languages")
+    return card(w, h, body, "top languages")
 
 
 # -------------------------------------------------------------- year map --
@@ -301,7 +269,7 @@ def build_year_svg(calendar: dict) -> str:
                          f'rx="2" fill="{ACCENT}" opacity="{opacity:.2f}"/>')
 
     body = f'<text x="16" y="16" font-size="11" fill="{DIM}">{sum(counts):,} contributions, one cell per day</text>' + "".join(cells)
-    return svg_shell(w, h, body, "contributions calendar")
+    return card(w, h, body, "contributions calendar")
 
 
 # ------------------------------------------------------------------ main --

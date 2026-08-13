@@ -2,12 +2,12 @@
      width="460" height="28" role="img" aria-label="languages">
   <style>
     @font-face {
-      font-family: 'HeadingMono';
+      font-family: 'CardMono';
       src: url('data:font/woff2;base64,d09GMgABAAAAAAP4AA4AAAAAB3gAAAOnAAJOFAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIBwqBmAAZBEICoRwhCEBNgIkAxILEgAEIAWEJgcgGx4GIK4GbCKTwwquoEFX4drdI7rDdziV0rX8YfD/tZ+e+/6GdgvoEIWsZXZR7scmxlR4AuGAwqpT1amvwvm3K/9BnoU4WHsWPsHdBS6vqAMXVfz6dClBHt527x/HThCSrHQoiiwJyaRgU5KQglxQkOp/ANCysAEn4AUPP//X5IsUTwuhMz66WyZFC3UC7k1gAlW490GG0aAnNuBBbMuaiK9AqnZmi90BAg0AwIikiIDXpVfBarT7QTkH+BcACHgj6AqR6Wqv9Ow4aAchNru0X3BJhj0WBoCl4WydQBgIAIYMV8rfsjhDEHhO1lz1768I7tUlEMBG+wL0KQUGItChiECHYusALeoVgay8AaPGzZj7LRrrbipEwWWiX83oNLAWAA+eQT0A4ACAKaoThtCe6Wmq7RxvDBx/UK5SqQrK+eO7rmbHFUpYJ39U3D35KPn8E/FzltTU9FpUAjSISyG317siXlOQK1P8IjtRVXh17kX6PZ7bryC4uOgP1StUj3Y2Ilsjr0YX36oi5ED4EnsizmUZ0yG+D+p4lOxu8O2HLU26slsP3ufviGcC70Fc9GwsCnYk8/icxe+KQDbhEHFsHqbkmjUyJ/7ecFiMjPtjueFkcDmSK5wOKPk2zAHLHA/YOTb3NZMlPT87sD3QX1waTYkkcSQTFmsMRqUQoabwcv2M+4MNdE+YUaPBjCh4cPxtnp8jLIgUTTrEqkB6JDGbSI8FVA7ZZGEyQvX1pyL1ZDls0A5pC1+u0KLyNfnXgdUt6Dd+e3o7TAxC114QG/Ghgn6bCval8+FpPANrMakcMSAJ0NLGcl47TsUFbOEI3YSUX3UuaOywOeMJsd05JxztpjDYXAVZaTprOmm6dOT8McAsyanJdAJPqGGjTI4Y1e0B0jOTAAAI2N7ceBluTdapv8rrog+AN3/+CfBezz78rfibtP/uDCQZAOEvD9gBkP9RU2C9/4TSPsDp+IX1ignAFYB0XHA7oCGlMCKQcjgpqzPADYyRLo8Z06TKRKZ9ZZypIDIJ2+EES5qIRywmTFoybciAQbMgQvwuAvEvQnmntUVmYaAwbci4mYjDxASaAHGbNmFYXtYsCGrOrEETpmE3fet1sybNUOLhGTAEGTwngytrwhieRM2XbalHZxws4pUX6ZxRadOEQhE+CdW4GNXWAzjhrT+DIIsF5T/bPYT0Q6nd0DXE+qUvyDlhJnHP1sg8AeyUd5BYKMMhkZtUBuOw4SKu7n8IAQQ=') format('woff2');
     }
-    text { font-family: 'HeadingMono', monospace; }
+    text { font-family: 'CardMono', monospace; }
   </style>
-  <rect width="100%" height="100%" fill="#0d1117"/>
+  <rect width="100%" height="100%" rx="0" fill="#0d1117"/>
   <text x="0" y="19" font-size="13" fill="#8b949e">languages</text>
-  <line x1="77.7" y1="14" x2="456" y2="14" stroke="#21262d" stroke-width="1"/>
+  <line x1="78.2" y1="14" x2="456" y2="14" stroke="#21262d" stroke-width="1"/>
 </svg>

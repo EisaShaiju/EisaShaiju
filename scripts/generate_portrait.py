@@ -49,6 +49,8 @@ CHAR_W = 7.74                     # px advance at font-size 12.9 (0.600em, JetBr
 FONT_SIZE = 12.9
 LINE_HEIGHT = CHAR_W / 0.48       # derived so rows = cols * (h/w) * 0.48 holds visually
 DISPLAY_WIDTH = 460               # px, final <img> width in the README
+ROW_DELAY = 0.09                  # s between one row starting and the next
+ROW_DUR = 0.5                     # s for a single row to type itself in
 
 
 def _fill_holes(mask: np.ndarray) -> np.ndarray:
@@ -272,21 +274,32 @@ def build_svg(lines: list[str], font_uri: str, fill: str = "#c9d1d9") -> str:
     height = rows * LINE_HEIGHT
     scale = DISPLAY_WIDTH / width
 
+    # The typing effect is progressive enhancement, not a load-bearing part of
+    # the image. Each clip rect is born at full width and every animation begins
+    # at 0s, so the stagger lives in keyTimes rather than in `begin`:
+    #   - SMIL runs  -> t=0 clamps the width to 0 and the row types itself in
+    #   - SMIL is off -> the base width stands and the portrait just shows
+    # Staggering with begin="1.4s" instead would leave the base value on screen
+    # until the animation starts, so the whole portrait would flash in and out.
+    # GitHub renders README images through its camo proxy, where SMIL cannot be
+    # relied on -- with a static width="0" the entire portrait clips to nothing.
+    total = round((len(lines) - 1) * ROW_DELAY + ROW_DUR, 2)
+
     row_elems = []
     for i, line in enumerate(lines):
         y = (i + 0.8) * LINE_HEIGHT
-
-        # staggered delay -> the line-by-line typing animation
-        begin = round(i * 0.09, 2)
+        start = i * ROW_DELAY / total
+        end = (i * ROW_DELAY + ROW_DUR) / total
         clip_id = f"clip{i}"
         row_elems.append(f'''
   <clipPath id="{clip_id}">
-    <rect x="0" y="{i * LINE_HEIGHT:.2f}" width="0" height="{LINE_HEIGHT:.2f}">
-      <animate attributeName="width" from="0" to="{width:.2f}"
-               dur="0.5s" begin="{begin}s" fill="freeze" />
+    <rect x="0" y="{i * LINE_HEIGHT:.2f}" width="{width:.2f}" height="{LINE_HEIGHT:.2f}">
+      <animate attributeName="width" values="0;0;{width:.2f};{width:.2f}"
+               keyTimes="0;{start:.4f};{end:.4f};1"
+               dur="{total}s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="{y:.2f}" font-family="PortraitRamp" font-size="{FONT_SIZE}"
+  <text x="0" y="{y:.2f}" font-family="PortraitRamp, monospace" font-size="{FONT_SIZE}"
         fill="{fill}" xml:space="preserve"
         clip-path="url(#{clip_id})">{esc(line)}</text>''')
 

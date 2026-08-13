@@ -10,543 +10,603 @@
   <rect width="100%" height="100%" fill="#0d1117"/>
   
   <clipPath id="clip0">
-    <rect x="0" y="0.00" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="0.0s" fill="freeze" />
+    <rect x="0" y="0.00" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.0000;0.0861;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="12.90" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="12.90" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip0)">                            ==::-:-:::::::-::-::=:::::                                  </text>
   <clipPath id="clip1">
-    <rect x="0" y="16.12" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="0.09s" fill="freeze" />
+    <rect x="0" y="16.12" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.0155;0.1015;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="29.03" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="29.03" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip1)">                     ::::...:.       ::.::. ....  ::..::::::                            </text>
   <clipPath id="clip2">
-    <rect x="0" y="32.25" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="0.18s" fill="freeze" />
+    <rect x="0" y="32.25" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.0310;0.1170;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="45.15" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="45.15" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip2)">                    +-.. .      :.   .  :. ..    ..         .::                         </text>
   <clipPath id="clip3">
-    <rect x="0" y="48.38" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="0.27s" fill="freeze" />
+    <rect x="0" y="48.38" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.0465;0.1325;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="61.27" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="61.27" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip3)">                :::::  :..    ..          ... ... ::           ::--:                    </text>
   <clipPath id="clip4">
-    <rect x="0" y="64.50" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="0.36s" fill="freeze" />
+    <rect x="0" y="64.50" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.0620;0.1480;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="77.40" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="77.40" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip4)">              :::..:.. :                  .   .       ..        .. .::-:                </text>
   <clipPath id="clip5">
-    <rect x="0" y="80.62" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="0.45s" fill="freeze" />
+    <rect x="0" y="80.62" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.0775;0.1635;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="93.52" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="93.52" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip5)">            -*==:..                    . ..:. :      .:    ...    .     .-              </text>
   <clipPath id="clip6">
-    <rect x="0" y="96.75" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="0.54s" fill="freeze" />
+    <rect x="0" y="96.75" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.0929;0.1790;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="109.65" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="109.65" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip6)">           +-:-::                     ..  ...  :.    .     .. .      ..  .:-:           </text>
   <clipPath id="clip7">
-    <rect x="0" y="112.88" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="0.63s" fill="freeze" />
+    <rect x="0" y="112.88" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.1084;0.1945;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="125.77" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="125.77" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip7)">          =-..:-..                          . :      . .   . .        ..   :+-          </text>
   <clipPath id="clip8">
-    <rect x="0" y="129.00" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="0.72s" fill="freeze" />
+    <rect x="0" y="129.00" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.1239;0.2100;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="141.90" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="141.90" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip8)">         =-:.  .                                                 .     ..  . :-         </text>
   <clipPath id="clip9">
-    <rect x="0" y="145.12" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="0.81s" fill="freeze" />
+    <rect x="0" y="145.12" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.1394;0.2255;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="158.03" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="158.03" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip9)">       ##..                   ..                           .     .  .. ::..  .:=        </text>
   <clipPath id="clip10">
-    <rect x="0" y="161.25" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="0.9s" fill="freeze" />
+    <rect x="0" y="161.25" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.1549;0.2410;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="174.15" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="174.15" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip10)">      +:.                       .                         .          .   .. .::.+       </text>
   <clipPath id="clip11">
-    <rect x="0" y="177.38" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="0.99s" fill="freeze" />
+    <rect x="0" y="177.38" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.1704;0.2565;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="190.28" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="190.28" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip11)">      :.                              ...::.:..::..        ..            ::::::::=      </text>
   <clipPath id="clip12">
-    <rect x="0" y="193.50" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="1.08s" fill="freeze" />
+    <rect x="0" y="193.50" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.1859;0.2719;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="206.40" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="206.40" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip12)">     +:..   ..              .     .:..:-====++=+=----::::..:.       ....:    .:-::      </text>
   <clipPath id="clip13">
-    <rect x="0" y="209.62" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="1.17s" fill="freeze" />
+    <rect x="0" y="209.62" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.2014;0.2874;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="222.53" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="222.53" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip13)">    +:: .                . :-------==++*#***###****++++++===--:.    . .::.  . .. .-     </text>
   <clipPath id="clip14">
-    <rect x="0" y="225.75" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="1.26s" fill="freeze" />
+    <rect x="0" y="225.75" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.2169;0.3029;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="238.65" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="238.65" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip14)">   ##:..:...             .-+*++****##*#############*******+++===--: ... .:..     .-     </text>
   <clipPath id="clip15">
-    <rect x="0" y="241.88" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="1.35s" fill="freeze" />
+    <rect x="0" y="241.88" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.2324;0.3184;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="254.78" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="254.78" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip15)">   %*:::       .         -*#######%%%%%%%%%%%%%#####********++++++=:....:::::.   .:     </text>
   <clipPath id="clip16">
-    <rect x="0" y="258.00" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="1.44s" fill="freeze" />
+    <rect x="0" y="258.00" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.2478;0.3339;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="270.90" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="270.90" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip16)">    -...             . .=*####%%%%%%@@@@@%%%%%%%%%%%#####********+==-:::  ..  .   :*    </text>
   <clipPath id="clip17">
-    <rect x="0" y="274.12" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="1.53s" fill="freeze" />
+    <rect x="0" y="274.12" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.2633;0.3494;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="287.03" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="287.03" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip17)">    ::              .:-+*##%%%%%%%%%@@@@%%%%%%%%%%%%%%%####******++===-.:.         -    </text>
   <clipPath id="clip18">
-    <rect x="0" y="290.25" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="1.62s" fill="freeze" />
+    <rect x="0" y="290.25" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.2788;0.3649;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="303.15" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="303.15" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip18)">   -:::           .--+**####%%%%%%%%%%%@@@%%%%%%%%%%%%########***++===-:::         =    </text>
   <clipPath id="clip19">
-    <rect x="0" y="306.38" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="1.71s" fill="freeze" />
+    <rect x="0" y="306.38" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.2943;0.3804;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="319.28" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="319.28" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip19)">   -::.    :.. :---+++**###%%%%%%%%%%@@@@%%%%%%%%%%%%%%#######****++==--:.         :    </text>
   <clipPath id="clip20">
-    <rect x="0" y="322.50" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="1.8s" fill="freeze" />
+    <rect x="0" y="322.50" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.3098;0.3959;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="335.40" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="335.40" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip20)">   ::.   ...:::--==++**#####%%%%%%%%%%%%@@@%%%%%%%%%%%#########****++==-::.        :    </text>
   <clipPath id="clip21">
-    <rect x="0" y="338.62" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="1.89s" fill="freeze" />
+    <rect x="0" y="338.62" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.3253;0.4114;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="351.53" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="351.53" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip21)">  -..    .::-==-=++++****###%%%%%%%%%%@@@@@@%%%%%%%%%%#######******++=-::.   ..    :-   </text>
   <clipPath id="clip22">
-    <rect x="0" y="354.75" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="1.98s" fill="freeze" />
+    <rect x="0" y="354.75" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.3408;0.4269;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="367.65" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="367.65" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip22)">  -.      ::-=++====+***###%%%%%%%%%@@@@@@@@@@@@@@@@@@%%%####******++=-::.   ......*    </text>
   <clipPath id="clip23">
-    <rect x="0" y="370.88" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="2.07s" fill="freeze" />
+    <rect x="0" y="370.88" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.3563;0.4423;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="383.78" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="383.78" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip23)">  -: -   ..:-=++**+****##%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@%%##*******++++=-:     :  ..=    </text>
   <clipPath id="clip24">
-    <rect x="0" y="387.00" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="2.16s" fill="freeze" />
+    <rect x="0" y="387.00" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.3718;0.4578;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="399.90" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="399.90" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip24)">  -:.:.. ..:-=++++*++***##%@@@@@@@@@@@@@@@@@@@@@@%#*****+++==-==+*++====-.       . +    </text>
   <clipPath id="clip25">
-    <rect x="0" y="403.12" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="2.25s" fill="freeze" />
+    <rect x="0" y="403.12" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.3873;0.4733;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="416.03" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="416.03" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip25)">   :. .:. .-====++==-----==++**#%@@@@@@@@@@@@@%*++=-------::::::---======-:. :. .  -    </text>
   <clipPath id="clip26">
-    <rect x="0" y="419.25" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="2.34s" fill="freeze" />
+    <rect x="0" y="419.25" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.4028;0.4888;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="432.15" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="432.15" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip26)">   -:..:  :-=====:::::::::-----=+*#%@@@@@@@@%#***=---==========---::-====--.  ..::--    </text>
   <clipPath id="clip27">
-    <rect x="0" y="435.38" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="2.43s" fill="freeze" />
+    <rect x="0" y="435.38" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.4182;0.5043;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="448.28" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="448.28" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip27)">   -:.::. :-==-:::----==========+***%%%%@@%%##**+++=++++++=++++++++====++=-: .  .-***   </text>
   <clipPath id="clip28">
-    <rect x="0" y="451.50" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="2.52s" fill="freeze" />
+    <rect x="0" y="451.50" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.4337;0.5198;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="464.40" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="464.40" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip28)">   =:::...-==-::-=++++=+=+++++====++*#%%@%%%**+====++=----------=++++++++=-:    :+*%%%  </text>
   <clipPath id="clip29">
-    <rect x="0" y="467.62" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="2.61s" fill="freeze" />
+    <rect x="0" y="467.62" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.4492;0.5353;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="480.53" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="480.53" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip29)">  -=-:..::-+====+++=------=-==+**+===+#%@@%#++==+*++#%-:-.:=#=::-==++++++=-:   -*#*%@@= </text>
   <clipPath id="clip30">
-    <rect x="0" y="483.75" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="2.7s" fill="freeze" />
+    <rect x="0" y="483.75" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.4647;0.5508;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="496.65" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="496.65" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip30)"> *##+-   :=+++++==--:-*+-.-:-@@#+++=++*##%#*++=+*+**##+=+==+++=--=+++***+=-:  :+%%##@@% </text>
   <clipPath id="clip31">
-    <rect x="0" y="499.88" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="2.79s" fill="freeze" />
+    <rect x="0" y="499.88" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.4802;0.5663;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="512.77" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="512.77" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip31)">-@%@#+:  :=++++==-::-=+*=-=*+*+**++=+++*###*+++++*****+******++++***#****+-:. =*%%%#@@@ </text>
   <clipPath id="clip32">
-    <rect x="0" y="516.00" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="2.88s" fill="freeze" />
+    <rect x="0" y="516.00" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.4957;0.5818;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="528.90" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="528.90" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip32)">#@@@###- :=++**++=====++++*++****+++++*#####*+++*****########**########**+--::%%@@@@#%* </text>
   <clipPath id="clip33">
-    <rect x="0" y="532.12" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="2.97s" fill="freeze" />
+    <rect x="0" y="532.12" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.5112;0.5972;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="545.02" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="545.02" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip33)">*@@@#%#*::=+******+++++****#******++++*##%#********############%%%%####**+--::%@@@@@#%= </text>
   <clipPath id="clip34">
-    <rect x="0" y="548.25" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="3.06s" fill="freeze" />
+    <rect x="0" y="548.25" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.5267;0.6127;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="561.15" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="561.15" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip34)"> @@%%@@%+-++************##***##**+++=+*####**++**##%%%%%%%%%%%%%%%%%%##**+=-::#@%#%%*#  </text>
   <clipPath id="clip35">
-    <rect x="0" y="564.38" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="3.15s" fill="freeze" />
+    <rect x="0" y="564.38" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.5422;0.6282;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="577.27" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="577.27" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip35)"> =@%@@@@@=+****###########%%####*++++*#%%%%##*+++++#%@@@@@@@@@@@@%%%###**+-:::*#%####*  </text>
   <clipPath id="clip36">
-    <rect x="0" y="580.50" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="3.24s" fill="freeze" />
+    <rect x="0" y="580.50" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.5577;0.6437;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="593.40" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="593.40" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip36)">  #%%%%@@+=+**#####%%%%%%%%%@@%#==++*#%@@@%%#******+*#%%@@@@@@@@@@%%##**++=-:-*%@%###=  </text>
   <clipPath id="clip37">
-    <rect x="0" y="596.62" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="3.33s" fill="freeze" />
+    <rect x="0" y="596.62" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.5731;0.6592;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="609.52" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="609.52" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip37)">   %#%%#%#=++***##%%%@@@@@@@@%#++**+*%@@@@@%#######+*####%%@@@@@@%%%#**+++=-:-#%%%%%*   </text>
   <clipPath id="clip38">
-    <rect x="0" y="612.75" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="3.42s" fill="freeze" />
+    <rect x="0" y="612.75" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.5886;0.6747;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="625.65" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="625.65" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip38)">   +%%#%%#=++***##%%@@@@@@@%#**+*##***%@@@@#******++**#***##%%%%%%%##**+++=-:+*#%%%%-   </text>
   <clipPath id="clip39">
-    <rect x="0" y="628.88" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="3.51s" fill="freeze" />
+    <rect x="0" y="628.88" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.6041;0.6902;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="641.77" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="641.77" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip39)">    *%@%%%*=+++**#%%%%%%%%#****++====++**##+**+======+****+*########***+++=--#%%%%*-    </text>
   <clipPath id="clip40">
-    <rect x="0" y="645.00" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="3.6s" fill="freeze" />
+    <rect x="0" y="645.00" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.6196;0.7057;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="657.90" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="657.90" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip40)">    -@%%%##+++++**#######*+**++==--:--=+++*+++==+=====+===+*+**###******++==-           </text>
   <clipPath id="clip41">
-    <rect x="0" y="661.12" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="3.69s" fill="freeze" />
+    <rect x="0" y="661.12" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.6351;0.7212;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="674.02" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="674.02" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip41)">     -*%%%%*==+++****#***+*+=--===+++++*#####**+++++++++++++**#####***+**+==-           </text>
   <clipPath id="clip42">
-    <rect x="0" y="677.25" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="3.78s" fill="freeze" />
+    <rect x="0" y="677.25" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.6506;0.7367;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="690.15" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="690.15" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip42)">            -===+++*******+=++=========++*#**+++++++======*########******+=-            </text>
   <clipPath id="clip43">
-    <rect x="0" y="693.38" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="3.87s" fill="freeze" />
+    <rect x="0" y="693.38" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.6661;0.7522;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="706.27" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="706.27" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip43)">             =++++********++=-===+***#*#%@%@@@@@@@@@@%%+=*####%######***++=-            </text>
   <clipPath id="clip44">
-    <rect x="0" y="709.50" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="3.96s" fill="freeze" />
+    <rect x="0" y="709.50" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.6816;0.7676;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="722.40" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="722.40" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip44)">             -=+++*****###***++#%@@@@@@@@@@@@@@@@@@%#*++*#%%%%%#######**+=--            </text>
   <clipPath id="clip45">
-    <rect x="0" y="725.62" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="4.05s" fill="freeze" />
+    <rect x="0" y="725.62" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.6971;0.7831;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="738.52" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="738.52" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip45)">              =++*******#####**++++##%@@@@@@@@@%%#**++**##%%%%########**+=-             </text>
   <clipPath id="clip46">
-    <rect x="0" y="741.75" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="4.14s" fill="freeze" />
+    <rect x="0" y="741.75" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.7126;0.7986;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="754.65" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="754.65" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip46)">              -=++*******#####**+==+*##%%%%%%%####*****##############**+=--             </text>
   <clipPath id="clip47">
-    <rect x="0" y="757.88" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="4.23s" fill="freeze" />
+    <rect x="0" y="757.88" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.7281;0.8141;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="770.77" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="770.77" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip47)">               ==++*******#**##**++++*###@@%@@%#***#***###***#*####**++=-=              </text>
   <clipPath id="clip48">
-    <rect x="0" y="774.00" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="4.32s" fill="freeze" />
+    <rect x="0" y="774.00" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.7435;0.8296;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="786.90" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="786.90" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip48)">                ==+++***++*#**#***+**#****####*******###****#******++=--:-              </text>
   <clipPath id="clip49">
-    <rect x="0" y="790.12" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="4.41s" fill="freeze" />
+    <rect x="0" y="790.12" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.7590;0.8451;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="803.02" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="803.02" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip49)">                 ==++++++++**************++*+***#######****++++++++=--::--              </text>
   <clipPath id="clip50">
-    <rect x="0" y="806.25" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="4.5s" fill="freeze" />
+    <rect x="0" y="806.25" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.7745;0.8606;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="819.15" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="819.15" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip50)">                  -===++++++++*********###########******++++===+===-:::---              </text>
   <clipPath id="clip51">
-    <rect x="0" y="822.38" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="4.59s" fill="freeze" />
+    <rect x="0" y="822.38" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.7900;0.8761;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="835.27" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="835.27" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip51)">                   ---=======++++*******####%###******+++++====---:::-==-=              </text>
   <clipPath id="clip52">
-    <rect x="0" y="838.50" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="4.68s" fill="freeze" />
+    <rect x="0" y="838.50" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.8055;0.8916;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="851.40" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="851.40" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip52)">                     ::--=-----=++*****###########***+++==-----:.:-=+++===:--           </text>
   <clipPath id="clip53">
-    <rect x="0" y="854.62" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="4.77s" fill="freeze" />
+    <rect x="0" y="854.62" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.8210;0.9071;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="867.52" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="867.52" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip53)">                     ==-:::-:::-=++****#%%##****#**++===--:--:.:-=+++++==:.:::-         </text>
   <clipPath id="clip54">
-    <rect x="0" y="870.75" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="4.86s" fill="freeze" />
+    <rect x="0" y="870.75" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.8365;0.9225;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="883.65" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="883.65" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip54)">                     -====-:.::::--=+++*****++++*++==-:::::::-=+++****++=-#=.:::-       </text>
   <clipPath id="clip55">
-    <rect x="0" y="886.88" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="4.95s" fill="freeze" />
+    <rect x="0" y="886.88" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.8520;0.9380;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="899.77" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="899.77" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip55)">                     ====++==-::::::---==+==-------:.  ..:-==++***##**++=-+@+::::#      </text>
   <clipPath id="clip56">
-    <rect x="0" y="903.00" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="5.04s" fill="freeze" />
+    <rect x="0" y="903.00" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.8675;0.9535;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="915.90" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="915.90" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip56)">                    +@===+++++==-:::....:::::.    .:::---==+**######***+=-::-::::*@*    </text>
   <clipPath id="clip57">
-    <rect x="0" y="919.12" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="5.13s" fill="freeze" />
+    <rect x="0" y="919.12" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.8830;0.9690;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="932.02" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="932.02" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip57)">                   #@@===+++**++==------::--::---==+==++++***#%######**+=-:::*:::+@@@   </text>
   <clipPath id="clip58">
-    <rect x="0" y="935.25" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="5.22s" fill="freeze" />
+    <rect x="0" y="935.25" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.8985;0.9845;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="948.15" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="948.15" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip58)">                 +#@@*:==+++****++======+++++************+**#########**++=-:-%:::-@#%#+ </text>
   <clipPath id="clip59">
-    <rect x="0" y="951.38" width="0" height="16.12">
-      <animate attributeName="width" from="0" to="681.12"
-               dur="0.5s" begin="5.31s" fill="freeze" />
+    <rect x="0" y="951.38" width="681.12" height="16.12">
+      <animate attributeName="width" values="0;0;681.12;681.12"
+               keyTimes="0;0.9139;1.0000;1"
+               dur="5.81s" begin="0s" fill="freeze" />
     </rect>
   </clipPath>
-  <text x="0" y="964.27" font-family="PortraitRamp" font-size="12.9"
+  <text x="0" y="964.27" font-family="PortraitRamp, monospace" font-size="12.9"
         fill="#c9d1d9" xml:space="preserve"
         clip-path="url(#clip59)">              :*@#=::::-==++****+++===++***#*########******###########**++-:=#::::#.::-#</text>
 </svg>

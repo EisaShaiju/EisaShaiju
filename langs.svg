@@ -17,8 +17,8 @@
   <circle cx="16" cy="58" r="4" fill="#3572A5"/>
   <text x="28" y="62" font-size="11" fill="#c9d1d9">Python</text>
   <rect x="140" y="53" width="200" height="8" fill="#21262d"/>
-  <rect x="140" y="53" width="98.3" height="8" fill="#3572A5"/>
-  <text x="350" y="62" font-size="10" fill="#6e7681">28.5% - 23 repos</text>
+  <rect x="140" y="53" width="98.7" height="8" fill="#3572A5"/>
+  <text x="350" y="62" font-size="10" fill="#6e7681">28.6% - 24 repos</text>
   <circle cx="16" cy="80" r="4" fill="#DA5B0B"/>
   <text x="28" y="84" font-size="11" fill="#c9d1d9">Jupyter Notebook</text>
   <rect x="140" y="75" width="200" height="8" fill="#21262d"/>
